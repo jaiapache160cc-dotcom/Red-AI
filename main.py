@@ -9,7 +9,7 @@ st.title("🔴 RedAI: Multi-Engine Orchestrator")
 st.caption("Synthesizing knowledge from Gemini, ChatGPT, and Claude simultaneously.")
 
 # Fetch keys securely from cloud secrets or local variables
-GEMINI_KEY = st.secrets.get("GEMINI_API_KEY", "")
+GEMINI_KEY = st.secrets.get("GEMINI_KEY", "")
 OPENAI_KEY = st.secrets.get("OPENAI_API_KEY", "")
 CLAUDE_KEY = st.secrets.get("ANTHROPIC_API_KEY", "YOUR_CLAUDE_KEY")
 
